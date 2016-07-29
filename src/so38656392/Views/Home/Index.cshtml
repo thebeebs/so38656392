@@ -1,0 +1,13 @@
+﻿@model so38656392.Models.ResultViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+    #AnalysisResults mark {
+    background-color: #fff100;
+}
+</style>
+
+<div id="AnalysisResults">
+    @Html.Raw(Model.MarkText())
+</div>
